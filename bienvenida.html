@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SaveMind — Bienvenida</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="page-welcome">
+  <main class="phone-frame welcome-screen">
+    <header class="welcome-header">
+      <h1 class="welcome-title">¡Hola! Soy SaveBot</h1>
+      <div class="welcome-copy">
+        <p>
+          <strong>Bienvenido(a) a SaveMind</strong>
+          Estoy aquí para ayudarte a conocer cómo te sientes y acompañarte
+          en el cuidado de tu bienestar emocional.
+        </p>
+        <p>
+          Tus respuestas serán privadas y confidenciales, por lo que puedes
+          responder con total sinceridad.
+        </p>
+        <p>
+          Al finalizar el test, recibirás un resultado personalizado con
+          recomendaciones para ayudarte a sentirte mejor.
+        </p>
+      </div>
+    </header>
+
+    <div class="illustration illustration--welcome" aria-hidden="true">
+      <!-- Coloca tu imagen en: img/welcome-bot.png -->
+      <img
+        src="img/welcome-bot.png"
+        alt="SaveBot saludando"
+        class="illustration__img"
+        width="260"
+        height="260"
+      >
+      <div class="illustration__placeholder">
+        <span>img/welcome-bot.png</span>
+      </div>
+    </div>
+
+    <button type="button" class="btn btn--welcome" id="start-test">
+      Comenzar Test
+    </button>
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

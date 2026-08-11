@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SaveMind — Test</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="page-test">
+  <main class="phone-frame test-screen">
+    <header class="test-header">
+      <button type="button" class="test-back" id="test-back" aria-label="Volver">
+        <span aria-hidden="true">←</span>
+      </button>
+      <p class="test-progress" id="test-progress" aria-live="polite">1/10</p>
+    </header>
+
+    <section class="question-card" id="question-card" aria-live="polite">
+      <div class="question-visual" id="question-visual" aria-hidden="true">
+        <img
+          src=""
+          alt=""
+          class="question-visual__img illustration__img"
+          width="140"
+          height="140"
+        >
+        <div class="question-visual__placeholder">
+          <span id="question-visual-label">img/q1.png</span>
+        </div>
+      </div>
+
+      <h1 class="question-title" id="question-title"></h1>
+
+      <div class="question-body" id="question-body"></div>
+    </section>
+
+    <div class="test-footer" id="test-footer" hidden>
+      <button type="button" class="btn btn--next" id="question-next" disabled>
+        Siguiente
+      </button>
+    </div>
+  </main>
+
+  <script src="js/questions.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
